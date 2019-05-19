@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Automation Practice]">
+  <test name="Automation Practice App Test Cases">
+    <classes>
+      <class name="com.ap.ui.testcases.LoginPageTest"/>
+      <class name="com.ap.ui.testcases.ContactTest"/>
+      <class name="com.ap.ui.testcases.SearchItemTest"/>
+      <class name="com.ap.ui.testcases.WishListTest"/>
+      <class name="com.ap.ui.testcases.CheckOutProductTest"/>
+    </classes>
+  </test> <!-- Automation Practice App Test Cases -->
+  <test name="Automation Practice App Test Cases(failed)">
+    <classes>
+      <class name="com.ap.ui.testcases.SearchItemTest">
+        <methods>
+          <include name="setUpdriver"/>
+          <include name="testSearchItem"/>
+        </methods>
+      </class> <!-- com.ap.ui.testcases.SearchItemTest -->
+      <class name="com.ap.ui.testcases.ContactTest">
+        <methods>
+          <include name="testConnection"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- com.ap.ui.testcases.ContactTest -->
+      <class name="com.ap.ui.testcases.LoginPageTest">
+        <methods>
+          <include name="setUpDriver"/>
+          <include name="apLogoTest"/>
+          <include name="loginPageTitleTest"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.ap.ui.testcases.LoginPageTest -->
+      <class name="com.ap.ui.testcases.WishListTest">
+        <methods>
+          <include name="testAddProductToWishList"/>
+          <include name="setUpdriver"/>
+        </methods>
+      </class> <!-- com.ap.ui.testcases.WishListTest -->
+    </classes>
+  </test> <!-- Automation Practice App Test Cases(failed) -->
+</suite> <!-- Failed suite [Automation Practice] -->

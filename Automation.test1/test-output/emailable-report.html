@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Automation Practice</th></tr><tr><td><a href="#t0">Automation Practice App Test Cases</a></td><td class="num">0</td><td class="num attn">6</td><td class="num">0</td><td class="num">81,862</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Automation Practice</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Automation Practice App Test Cases &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.ap.ui.testcases.ContactTest</td><td><a href="#m0">setupDriver</a></td><td rowspan="1">1558278385971</td><td rowspan="1">0</td></tr><tr class="failedodd"><td rowspan="1">com.ap.ui.testcases.LoginPageTest</td><td><a href="#m1">setUpDriver</a></td><td rowspan="1">1558278364432</td><td rowspan="1">0</td></tr><tr class="failedeven"><td rowspan="1">com.ap.ui.testcases.SearchItemTest</td><td><a href="#m2">setUpdriver</a></td><td rowspan="1">1558278405996</td><td rowspan="1">0</td></tr><tr class="failedodd"><td rowspan="1">com.ap.ui.testcases.WishListTest</td><td><a href="#m3">setUpdriver</a></td><td rowspan="1">1558278426135</td><td rowspan="1">0</td></tr><tr><th colspan="4">Automation Practice App Test Cases &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.ap.ui.testcases.ContactTest</td><td><a href="#m4">tearDown</a></td><td rowspan="1">1558278405994</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="5">com.ap.ui.testcases.LoginPageTest</td><td><a href="#m5">setUpDriver</a></td><td rowspan="2">1558278385963</td><td rowspan="2">0</td></tr><tr class="skippedodd"><td><a href="#m6">setUpDriver</a></td></tr><tr class="skippedodd"><td><a href="#m7">tearDown</a></td><td rowspan="3">1558278385965</td><td rowspan="3">0</td></tr><tr class="skippedodd"><td><a href="#m8">tearDown</a></td></tr><tr class="skippedodd"><td><a href="#m9">tearDown</a></td></tr><tr class="skippedeven"><td rowspan="1">com.ap.ui.testcases.SearchItemTest</td><td><a href="#m10">tearDown</a></td><td rowspan="1">1558278426132</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">com.ap.ui.testcases.WishListTest</td><td><a href="#m11">tearDown</a></td><td rowspan="1">1558278446198</td><td rowspan="1">0</td></tr><tr><th colspan="4">Automation Practice App Test Cases &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.ap.ui.testcases.ContactTest</td><td><a href="#m12">testConnection</a></td><td rowspan="1">1558278405993</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="3">com.ap.ui.testcases.LoginPageTest</td><td><a href="#m13">apLogoTest</a></td><td rowspan="1">1558278385961</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m14">loginPageTitleTest</a></td><td rowspan="1">1558278385957</td><td rowspan="1">1</td></tr><tr class="skippedodd"><td><a href="#m15">loginTest</a></td><td rowspan="1">1558278385964</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td rowspan="1">com.ap.ui.testcases.SearchItemTest</td><td><a href="#m16">testSearchItem</a></td><td rowspan="1">1558278426128</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">com.ap.ui.testcases.WishListTest</td><td><a href="#m17">testAddProductToWishList</a></td><td rowspan="1">1558278446173</td><td rowspan="1">18</td></tr></tbody></table><h2>Automation Practice App Test Cases</h2><h3 id="m0">com.ap.ui.testcases.ContactTest#setupDriver</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;WIN-9CSDHDN9FSR&apos;, ip: &apos;172.16.122.129&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:193)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:179)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.ap.ui.base.TestBase.intialization(TestBase.java:53)
+	at com.ap.ui.testcases.ContactTest.setupDriver(ContactTest.java:22)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:35746/status] to be available after 20000 ms
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:188)
+	... 36 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
+	... 37 more
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">com.ap.ui.testcases.LoginPageTest#setUpDriver</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;WIN-9CSDHDN9FSR&apos;, ip: &apos;172.16.122.129&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:193)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:179)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.ap.ui.base.TestBase.intialization(TestBase.java:53)
+	at com.ap.ui.testcases.LoginPageTest.setUpDriver(LoginPageTest.java:22)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:7251/status] to be available after 20011 ms
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:188)
+	... 36 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
+	... 37 more
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">com.ap.ui.testcases.SearchItemTest#setUpdriver</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;WIN-9CSDHDN9FSR&apos;, ip: &apos;172.16.122.129&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:193)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:179)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.ap.ui.base.TestBase.intialization(TestBase.java:53)
+	at com.ap.ui.testcases.SearchItemTest.setUpdriver(SearchItemTest.java:27)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:17593/status] to be available after 20001 ms
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:188)
+	... 36 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
+	... 37 more
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">com.ap.ui.testcases.WishListTest#setUpdriver</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;WIN-9CSDHDN9FSR&apos;, ip: &apos;172.16.122.129&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:193)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:179)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.ap.ui.base.TestBase.intialization(TestBase.java:53)
+	at com.ap.ui.testcases.WishListTest.setUpdriver(WishListTest.java:28)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:5975/status] to be available after 20010 ms
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:188)
+	... 36 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
+	... 37 more
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">com.ap.ui.testcases.ContactTest#tearDown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m5">com.ap.ui.testcases.LoginPageTest#setUpDriver</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m6">com.ap.ui.testcases.LoginPageTest#setUpDriver</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m7">com.ap.ui.testcases.LoginPageTest#tearDown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m8">com.ap.ui.testcases.LoginPageTest#tearDown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m9">com.ap.ui.testcases.LoginPageTest#tearDown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m10">com.ap.ui.testcases.SearchItemTest#tearDown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m11">com.ap.ui.testcases.WishListTest#tearDown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m12">com.ap.ui.testcases.ContactTest#testConnection</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m13">com.ap.ui.testcases.LoginPageTest#apLogoTest</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m14">com.ap.ui.testcases.LoginPageTest#loginPageTitleTest</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m15">com.ap.ui.testcases.LoginPageTest#loginTest</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m16">com.ap.ui.testcases.SearchItemTest#testSearchItem</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m17">com.ap.ui.testcases.WishListTest#testAddProductToWishList</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>
